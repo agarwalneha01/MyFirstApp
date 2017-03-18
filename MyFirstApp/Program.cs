@@ -26,7 +26,7 @@ namespace MyFirstApp
 
             //DegreeToFahrenheit();
 
-            //SpeedCalculator();
+            SpeedCalculator();
 
             FixedDepositInterestCalculator();
 
