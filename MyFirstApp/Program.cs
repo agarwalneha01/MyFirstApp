@@ -32,7 +32,13 @@ namespace MyFirstApp
 
             //Iteration.PrintTable(2);
 
-            Iteration.PrintTable(4, 0);
+            //Iteration.PrintTable(4, 0);
+
+            //bool isLeap =  Conditions.IsLeapYear(1990);
+            //Console.WriteLine(isLeap);
+            //Console.ReadLine();
+
+            Iteration.PrintLeapYear(1983, 2017);
         }
     }
 }

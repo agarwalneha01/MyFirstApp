@@ -222,5 +222,23 @@ namespace MyFirstApp
             Console.ReadLine();
 
         }
+
+        public static bool IsLeapYear(int year)
+        {
+            if(year <= 0)
+            {
+                return false;
+            }
+
+            if (year % 4 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
     }
 }
