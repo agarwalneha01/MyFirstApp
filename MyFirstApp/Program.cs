@@ -30,6 +30,9 @@ namespace MyFirstApp
 
             //Conditions.FixedDepositInterestCalculator();
 
+            //Iteration.PrintTable(2);
+
+            Iteration.PrintTable(4, 0);
         }
     }
 }
