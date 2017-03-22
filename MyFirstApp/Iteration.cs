@@ -53,5 +53,31 @@ namespace MyFirstApp
             }
             Console.ReadLine();
         }
+
+        public static void PrintSum()
+        {
+            for (double number = 1; 1 == 1; number++)
+            {
+                Console.Write("Input First No. ");
+                string num = Console.ReadLine();
+                if (num == "Exit")
+                {
+                    Console.WriteLine("Exiting....");
+                    Console.ReadLine();
+                    return;
+                }
+                double num1 = double.Parse(num);
+                
+                Console.Write("Input Second No. ");
+                num = Console.ReadLine();
+                double num2 = double.Parse(num);
+
+                double sum = num1 + num2;
+                Console.WriteLine("Sum = {0}", sum);
+                Console.ReadLine();
+
+                Console.Clear();
+            }
+        }
     }
 }

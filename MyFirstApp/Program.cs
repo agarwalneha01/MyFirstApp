@@ -38,7 +38,9 @@ namespace MyFirstApp
             //Console.WriteLine(isLeap);
             //Console.ReadLine();
 
-            Iteration.PrintLeapYear(1983, 2017);
+            //Iteration.PrintLeapYear(1983, 2017);
+
+            Iteration.PrintSum();
         }
     }
 }
