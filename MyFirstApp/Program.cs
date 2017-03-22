@@ -40,7 +40,9 @@ namespace MyFirstApp
 
             //Iteration.PrintLeapYear(1983, 2017);
 
-            Iteration.PrintSum();
+            //Iteration.PrintSum();
+
+            Iteration.PrintDescendingNo();
         }
     }
 }

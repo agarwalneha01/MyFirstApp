@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace MyFirstApp
 {
@@ -56,18 +57,19 @@ namespace MyFirstApp
 
         public static void PrintSum()
         {
-            for (double number = 1; 1 == 1; number++)
+            //for (; true;)
+            while (true)
             {
                 Console.Write("Input First No. ");
                 string num = Console.ReadLine();
-                if (num == "Exit")
+                if (string.Compare("Exit", num, true) == 0)
                 {
                     Console.WriteLine("Exiting....");
                     Console.ReadLine();
                     return;
                 }
                 double num1 = double.Parse(num);
-                
+
                 Console.Write("Input Second No. ");
                 num = Console.ReadLine();
                 double num2 = double.Parse(num);
@@ -78,6 +80,20 @@ namespace MyFirstApp
 
                 Console.Clear();
             }
+        }
+
+        public static void PrintDescendingNo()
+        {
+            int num = 10;
+            while (num >= 1)
+            {
+                Console.WriteLine(num);
+                Thread.Sleep(1000);
+                num--;
+                Console.Clear();
+            }
+            Console.WriteLine("Blast Off");
+            Console.ReadLine();
         }
     }
 }
