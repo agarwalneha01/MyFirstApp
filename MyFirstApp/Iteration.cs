@@ -13,7 +13,7 @@ namespace MyFirstApp
                 Console.WriteLine("{0} x {1} = {2}", num, count, result);
             }
             Console.ReadLine();
-        }
+        } 
 
         public static void PrintTable(int num, int times)
         {
