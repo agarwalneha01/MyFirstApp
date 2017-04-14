@@ -95,5 +95,58 @@ namespace MyFirstApp
             Console.WriteLine("Blast Off");
             Console.ReadLine();
         }
+
+        public static void PrintStars()
+        {
+            int i;
+            for (i = 1; i <= 10; i++)
+            {
+                int j;
+                for (j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.ReadLine();
+            }
+        }
+
+        public static void PrintTriangleStars()
+        {
+            int i;
+            for (i = 1; i <= 11; i++)
+            {
+                int j;
+                for (j = 10 - i + 1; j >= 1; j--)
+                {
+                    Console.Write(" ");
+                }
+                int k;
+                for (k = 1; k <= i * 2 - 1; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+            for (i = 1; i <= 10; i++)
+            {
+                int j;
+                for (j = 1; j <= i; j++)
+                {
+                    Console.Write(" ");
+                }
+                int k;
+                for (k = 20 - i; k >= i; k--)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+        }
     }
 }
+
+
+
+

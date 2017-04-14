@@ -42,7 +42,12 @@ namespace MyFirstApp
 
             //Iteration.PrintSum();
 
-            Iteration.PrintDescendingNo();
+            //Iteration.PrintDescendingNo();
+
+            //Iteration.PrintStars();
+
+            Iteration.PrintTriangleStars();
+
         }
     }
 }
