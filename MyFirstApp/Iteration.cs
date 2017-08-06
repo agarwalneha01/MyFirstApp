@@ -7,6 +7,7 @@ namespace MyFirstApp
     {
         public static void PrintTable(int num)
         {
+			
             for (int count = 1; count <= 10; count++)
             {
                 int result = num * count;
